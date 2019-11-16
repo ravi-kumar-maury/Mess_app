@@ -1,0 +1,287 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.messappl"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:5:5-81
+11-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:6:5-80
+12-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:7:5-66
+13-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:8:5-78
+14-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:9:5-65
+15-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:9:22-62
+16
+17    <uses-feature android:name="android.hardware.camera" />
+17-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:10:5-60
+17-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:10:19-57
+18    <uses-feature android:name="android.hardware.camera.autofocus" />
+18-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:11:5-69
+18-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:11:19-67
+19
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->[com.wonderkiln:camerakit:0.13.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/15f56f3d23fbda855416a68b1937fd3d/camerakit-0.13.1/AndroidManifest.xml:12:5-71
+20-->[com.wonderkiln:camerakit:0.13.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/15f56f3d23fbda855416a68b1937fd3d/camerakit-0.13.1/AndroidManifest.xml:12:22-68
+21
+22    <uses-feature
+22-->[com.wonderkiln:camerakit:0.13.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/15f56f3d23fbda855416a68b1937fd3d/camerakit-0.13.1/AndroidManifest.xml:18:5-20:36
+23        android:name="android.hardware.camera.front"
+23-->[com.wonderkiln:camerakit:0.13.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/15f56f3d23fbda855416a68b1937fd3d/camerakit-0.13.1/AndroidManifest.xml:19:9-53
+24        android:required="false" />
+24-->[com.wonderkiln:camerakit:0.13.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/15f56f3d23fbda855416a68b1937fd3d/camerakit-0.13.1/AndroidManifest.xml:20:9-33
+25    <uses-feature
+25-->[com.wonderkiln:camerakit:0.13.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/15f56f3d23fbda855416a68b1937fd3d/camerakit-0.13.1/AndroidManifest.xml:21:5-23:36
+26        android:name="android.hardware.microphone"
+26-->[com.wonderkiln:camerakit:0.13.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/15f56f3d23fbda855416a68b1937fd3d/camerakit-0.13.1/AndroidManifest.xml:22:9-51
+27        android:required="false" />
+27-->[com.wonderkiln:camerakit:0.13.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/15f56f3d23fbda855416a68b1937fd3d/camerakit-0.13.1/AndroidManifest.xml:23:9-33
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/fdcba48e2a052b51020ef1423ae68265/firebase-measurement-connector-impl-16.0.1/AndroidManifest.xml:24:5-68
+29-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/fdcba48e2a052b51020ef1423ae68265/firebase-measurement-connector-impl-16.0.1/AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+30-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:26:5-110
+30-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:26:22-107
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+31-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+32
+33    <application
+33-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:12:5-46:19
+34        android:allowBackup="true"
+34-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:13:9-35
+35        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+35-->[com.android.support:support-compat:28.0.0] /home/ravit/.gradle/caches/transforms-2/files-2.1/04b7991bd863379b8d98e91bbafdb10f/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+36        android:debuggable="true"
+37        android:hardwareAccelerated="true"
+37-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:18:9-43
+38        android:icon="@drawable/food1"
+38-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:14:9-39
+39        android:label="@string/app_name"
+39-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:15:9-41
+40        android:roundIcon="@drawable/food1"
+40-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:16:9-44
+41        android:supportsRtl="true"
+41-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:17:9-35
+42        android:theme="@style/AppTheme" >
+42-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:19:9-40
+43        <activity android:name="com.example.messappl.FacesDetection" >
+43-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:20:9-25:20
+43-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:20:19-49
+44            <meta-data
+44-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:22:13-24:39
+45                android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+45-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:23:17-74
+46                android:value="face" />
+46-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:24:17-37
+47        </activity>
+48        <activity
+48-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:26:9-28:50
+49            android:name="com.example.messappl.MyOrders"
+49-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:27:13-37
+50            android:parentActivityName="com.example.messappl.Home" />
+50-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:28:13-47
+51        <activity
+51-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:29:9-31:47
+52            android:name="com.example.messappl.Home"
+52-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:30:13-33
+53            android:theme="@style/AppTheme" />
+53-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:31:13-44
+54        <activity
+54-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:32:9-35:47
+55            android:name="com.example.messappl.RegisterActivity"
+55-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:33:13-45
+56            android:parentActivityName="com.example.messappl.MainActivity"
+56-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:34:13-55
+57            android:theme="@style/AppTheme" />
+57-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:35:13-44
+58        <activity
+58-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:36:9-44:20
+59            android:name="com.example.messappl.MainActivity"
+59-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:37:13-41
+60            android:theme="@style/AppTheme" >
+60-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:38:13-44
+61            <intent-filter>
+61-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:39:13-43:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:40:17-69
+62-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:40:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:42:17-77
+64-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:42:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity android:name="com.example.messappl.Schedule" />
+67-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:45:9-46
+67-->/home/ravit/MessCrowdDetectionApp-master/app/src/main/AndroidManifest.xml:45:19-43
+68        <activity
+68-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:23:9-29:75
+69            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+69-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:24:13-85
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:25:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:26:13-36
+72            android:launchMode="singleInstance"
+72-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:27:13-48
+73            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+73-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:28:13-102
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:29:13-72
+75
+76        <service
+76-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:31:9-35:19
+77            android:name="com.google.firebase.components.ComponentDiscoveryService"
+77-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:31:18-89
+78            android:exported="false" >
+78-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:31:13-37
+79            <meta-data
+79-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:32:13-34:85
+80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+80-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:33:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-auth:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/aad48d310ed92426243bf57ba3e86ce2/firebase-auth-16.0.1/AndroidManifest.xml:34:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/fdcba48e2a052b51020ef1423ae68265/firebase-measurement-connector-impl-16.0.1/AndroidManifest.xml:28:13-30:85
+83                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+83-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/fdcba48e2a052b51020ef1423ae68265/firebase-measurement-connector-impl-16.0.1/AndroidManifest.xml:29:17-139
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/fdcba48e2a052b51020ef1423ae68265/firebase-measurement-connector-impl-16.0.1/AndroidManifest.xml:30:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+86                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+86-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+88        </service>
+89
+90        <receiver
+90-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:29:9-33:20
+91            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+91-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:30:13-85
+92            android:enabled="true"
+92-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:31:13-35
+93            android:exported="false" >
+93-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:32:13-37
+94        </receiver>
+95        <receiver
+95-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:34:9-42:20
+96            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+96-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:35:13-100
+97            android:enabled="true"
+97-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:36:13-35
+98            android:exported="true"
+98-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:37:13-36
+99            android:permission="android.permission.INSTALL_PACKAGES" >
+99-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:38:13-69
+100            <intent-filter>
+100-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:39:13-41:29
+101                <action android:name="com.android.vending.INSTALL_REFERRER" />
+101-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:40:17-79
+101-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:40:25-76
+102            </intent-filter>
+103        </receiver>
+104
+105        <service
+105-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:44:9-47:40
+106            android:name="com.google.android.gms.measurement.AppMeasurementService"
+106-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:45:13-84
+107            android:enabled="true"
+107-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:46:13-35
+108            android:exported="false" />
+108-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:47:13-37
+109        <service
+109-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:48:9-52:72
+110            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+110-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:49:13-87
+111            android:enabled="true"
+111-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:50:13-35
+112            android:exported="false"
+112-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:51:13-37
+113            android:permission="android.permission.BIND_JOB_SERVICE" />
+113-->[com.google.firebase:firebase-analytics:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/3219287211c6f476cf608de3119065db/firebase-analytics-16.0.1/AndroidManifest.xml:52:13-69
+114
+115        <receiver
+115-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+116            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+116-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+117            android:exported="true"
+117-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+118            android:permission="com.google.android.c2dm.permission.SEND" >
+118-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+119            <intent-filter>
+119-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+120                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+120-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
+120-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+121            </intent-filter>
+122        </receiver>
+123        <!--
+124             FirebaseInstanceIdService performs security checks at runtime,
+125             no need for explicit permissions despite exported="true"
+126        -->
+127        <service
+127-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+128            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+128-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+129            android:exported="true" >
+129-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+130            <intent-filter android:priority="-500" >
+130-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+130-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+131                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+131-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+131-->[com.google.firebase:firebase-iid:17.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/9c55e34559140184e7e4bd3db0bf29ea/firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+132            </intent-filter>
+133        </service>
+134
+135        <activity
+135-->[com.google.android.gms:play-services-base:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/6ed376ce3d4826f20aa4fd94474c04d3/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+136            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+136-->[com.google.android.gms:play-services-base:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/6ed376ce3d4826f20aa4fd94474c04d3/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-base:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/6ed376ce3d4826f20aa4fd94474c04d3/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-base:16.0.1] /home/ravit/.gradle/caches/transforms-2/files-2.1/6ed376ce3d4826f20aa4fd94474c04d3/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+139
+140        <provider
+140-->[com.google.firebase:firebase-common:16.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+141            android:name="com.google.firebase.provider.FirebaseInitProvider"
+141-->[com.google.firebase:firebase-common:16.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+142            android:authorities="com.example.messappl.firebaseinitprovider"
+142-->[com.google.firebase:firebase-common:16.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+143            android:exported="false"
+143-->[com.google.firebase:firebase-common:16.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+144            android:initOrder="100" />
+144-->[com.google.firebase:firebase-common:16.0.3] /home/ravit/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+145
+146        <meta-data
+146-->[com.google.android.gms:play-services-basement:16.1.0] /home/ravit/.gradle/caches/transforms-2/files-2.1/05ee08e1b7b68059f39aa5dfc2445563/play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+147            android:name="com.google.android.gms.version"
+147-->[com.google.android.gms:play-services-basement:16.1.0] /home/ravit/.gradle/caches/transforms-2/files-2.1/05ee08e1b7b68059f39aa5dfc2445563/play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+148            android:value="@integer/google_play_services_version" />
+148-->[com.google.android.gms:play-services-basement:16.1.0] /home/ravit/.gradle/caches/transforms-2/files-2.1/05ee08e1b7b68059f39aa5dfc2445563/play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+149        <meta-data
+149-->[com.android.support:support-v4:26.1.0] /home/ravit/.gradle/caches/transforms-2/files-2.1/80f99b26638901d755ab5bc5004967a7/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+150            android:name="android.support.VERSION"
+150-->[com.android.support:support-v4:26.1.0] /home/ravit/.gradle/caches/transforms-2/files-2.1/80f99b26638901d755ab5bc5004967a7/support-v4-26.1.0/AndroidManifest.xml:27:13-51
+151            android:value="26.1.0" />
+151-->[com.android.support:support-v4:26.1.0] /home/ravit/.gradle/caches/transforms-2/files-2.1/80f99b26638901d755ab5bc5004967a7/support-v4-26.1.0/AndroidManifest.xml:28:13-35
+152    </application>
+153
+154</manifest>
